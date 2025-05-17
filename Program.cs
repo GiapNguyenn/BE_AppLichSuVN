@@ -21,11 +21,9 @@ builder.Services.Configure<HttpsRedirectionOptions>(options =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// Luôn bật Swagger
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseStaticFiles();
 
