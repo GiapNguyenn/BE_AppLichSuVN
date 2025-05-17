@@ -19,7 +19,7 @@ builder.Services.Configure<HttpsRedirectionOptions>(options =>
 var app = builder.Build();
 
 // Bắt buộc trên Render: lắng nghe PORT từ biến môi trường
-var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+var port = Environment.GetEnvironmentVariable("PORT") ?? "10000";
 app.Urls.Add($"http://*:{port}");
 
 app.UseSwagger();
