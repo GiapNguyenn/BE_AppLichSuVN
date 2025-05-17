@@ -11,14 +11,20 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<HistoryDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.Configure<HttpsRedirectionOptions>(options =>
+// Thêm CORS
+builder.Services.AddCors(options =>
 {
-    options.HttpsPort = 443;
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
 });
 
 var app = builder.Build();
 
-// Bắt buộc trên Render: lắng nghe PORT từ biến môi trường
+// Render yêu cầu lắng nghe cổng qua biến môi trường
 var port = Environment.GetEnvironmentVariable("PORT") ?? "10000";
 app.Urls.Add($"http://*:{port}");
 
@@ -26,7 +32,12 @@ app.UseSwagger();
 app.UseSwaggerUI();
 
 app.UseStaticFiles();
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();
+
+// Bật CORS
+app.UseCors();
+
 app.UseAuthorization();
 app.MapControllers();
+
 app.Run();
