@@ -5161,30 +5161,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tuana\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tuana\\AppLichSuVN\\HistoryAPI\\HistoryAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\BE_AppLichSuVN\\HistoryAPI.csproj",
       "projectName": "HistoryAPI",
-      "projectPath": "C:\\Users\\tuana\\AppLichSuVN\\HistoryAPI\\HistoryAPI.csproj",
-      "packagesPath": "C:\\Users\\tuana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tuana\\AppLichSuVN\\HistoryAPI\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\BE_AppLichSuVN\\HistoryAPI.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\BE_AppLichSuVN\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\tuana\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
