@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "V05KK4Li10NRg1FDCF2MmS6FB/D10dgTTSwRe/H1uRI=",
+  "Source": "HistoryAPI",
+  "BasePath": "_content/HistoryAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "HistoryAPI\\wwwroot",
+      "Source": "HistoryAPI",
+      "ContentRoot": "C:\\Users\\tuana\\AppLichSuVN\\HistoryAPI\\wwwroot\\",
+      "BasePath": "_content/HistoryAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\tuana\\AppLichSuVN\\HistoryAPI\\wwwroot\\uploads\\lanhthos\\533953b8-f67b-4b53-8abf-6b40bcf06670_Screenshot 2025-05-17 075550.png",
+      "SourceId": "HistoryAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tuana\\AppLichSuVN\\HistoryAPI\\wwwroot\\",
+      "BasePath": "_content/HistoryAPI",
+      "RelativePath": "uploads/lanhthos/533953b8-f67b-4b53-8abf-6b40bcf06670_Screenshot 2025-05-17 075550.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\lanhthos\\533953b8-f67b-4b53-8abf-6b40bcf06670_Screenshot 2025-05-17 075550.png"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\tuana\\AppLichSuVN\\HistoryAPI\\wwwroot\\uploads\\lanhthos\\533953b8-f67b-4b53-8abf-6b40bcf06670_Screenshot 2025-05-17 075550.png",
+      "PackagePath": "staticwebassets\\uploads\\lanhthos\\533953b8-f67b-4b53-8abf-6b40bcf06670_Screenshot 2025-05-17 075550.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HistoryAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.HistoryAPI.props",
+      "PackagePath": "build\\HistoryAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.HistoryAPI.props",
+      "PackagePath": "buildMultiTargeting\\HistoryAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.HistoryAPI.props",
+      "PackagePath": "buildTransitive\\HistoryAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
